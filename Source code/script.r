@@ -59,7 +59,7 @@ u <- "%%user%%"   #Username and Password provided in CDB
 p <- "%%password%%"
 source_language =%%source%%  #From CDB Combo Boxes
   target_language =%%target%%
-  base <- "https://gateway.watsonplatform.net/language-translation/api/v2/translate?source="
+  base <- "https://gateway.watsonplatform.net/language-translator/api/v2/translate?source="
 
 if (source_language != target_language){
   for(i in 1:nrow(modelerData)) {
